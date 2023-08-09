@@ -1,43 +1,20 @@
 # TasaNet: temporal attention and spatial auxiliary network for moving Infrared dim and small target detection
 
 ## Model
-<!-- <center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="./img/model.jpg">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">TasaNet</div>
-</center> -->
-![TasaNet](./img/model.jpg)
-<center>TasaNet</center>
-
+|![TasaNet](./img/model.jpg)|
+|:--:|
+|*TasaNet*|
 
 ## PR results on the DAUB and IRDST datasets
-<!-- <center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="./img/PR_1.jpg">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">DAUB</div>
-</center> -->
-![DAUB](./img/PR_1.jpg)
 
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="./img/PR_2.jpg">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">IRDST</div>
-</center>
+| ![DAUB](./img/PR_1.jpg) |
+|:--:|
+| *DAUB* |
+
+| ![IRDST](./img/PR_2.jpg) |
+|:--:|
+| *IRDST* |
+
 
 ## Datasets
 ### 1. [DUAB](https://www.scidb.cn/en/detail?dataSetId=720626420933459968) and [IRDST](https://xzbai.buaa.edu.cn/datasets.html)
