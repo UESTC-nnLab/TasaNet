@@ -1,7 +1,7 @@
 # TasaNet: temporal attention and spatial auxiliary network for moving Infrared dim and small target detection
 
 ## Model
-<center>
+<!-- <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="./img/model.jpg">
@@ -10,11 +10,13 @@
     display: inline-block;
     color: #999;
     padding: 2px;">TasaNet</div>
-</center>
+</center> -->
+![TasaNet](./img/model.jpg)
+<center>TasaNet</center>
 
 
 ## PR results on the DAUB and IRDST datasets
-<center>
+<!-- <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
     src="./img/PR_1.jpg">
@@ -23,7 +25,9 @@
     display: inline-block;
     color: #999;
     padding: 2px;">DAUB</div>
-</center>
+</center> -->
+![DAUB](./img/PR_1.jpg)
+
 <center>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
