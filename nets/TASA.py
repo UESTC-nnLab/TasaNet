@@ -172,7 +172,7 @@ class YOLOXHead(nn.Module):
         return outputs
     
 
-class ADF(nn.Module):
+class CSWF(nn.Module):
     def __init__(self,in_channel, out_channel):
         super().__init__()
         self.conv_1 = nn.Sequential(
@@ -254,7 +254,7 @@ class Neck(nn.Module):
             BaseConv(channels[0]*2, channels[0]*2,3,1),
             BaseConv(channels[0]*2,channels[0],3,1)
         )
-        self.conv_final = ADF(channels[0], channels[0])
+        self.conv_final = CSWF(channels[0], channels[0])
 
     def forward(self, feats):
         f_feats = []
@@ -270,7 +270,7 @@ class Neck(nn.Module):
 
         r_feat= self.conv_gl_mix(r_feats)
         
-        # AFM
+        # Complementary symmetry weighting Fusion
         c_feat = self.conv_final(r_feat,c_feat)
         f_feats.append(c_feat)
         return f_feats
